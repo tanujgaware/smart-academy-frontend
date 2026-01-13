@@ -1,0 +1,64 @@
+.nav {
+  height: 64px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.links li {
+  font-size: 14px;
+}
+
+.links li a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.active a {
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+  padding-bottom: 4px;
+}
+
+.auth {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.login {
+  color: #0070f3;
+  font-weight: 500;
+}
+
+.signup {
+  background: #0070f3;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.logout {
+  background: transparent;
+  border: 1px solid #e00;
+  color: #e00;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}

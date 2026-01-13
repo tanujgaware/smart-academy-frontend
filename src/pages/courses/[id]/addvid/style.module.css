@@ -1,0 +1,53 @@
+.page {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc;
+}
+
+.card {
+  background: #fff;
+  padding: 32px;
+  width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form input[type="text"],
+.form input[type="file"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.form button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}

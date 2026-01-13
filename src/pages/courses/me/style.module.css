@@ -1,0 +1,117 @@
+.page {
+  padding: 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.page h1 {
+  margin-bottom: 24px;
+}
+
+.loading {
+  color: #666;
+}
+
+.empty {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.empty a {
+  color: #0070f3;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.view {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #0070f3;
+  color: #0070f3;
+  font-size: 14px;
+}
+
+.publish {
+  flex: 1;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete {
+  background: transparent;
+  border: 1px solid #e00;
+  color: #e00;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 600;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.published {
+  background: #e6f4ea;
+  color: #137333;
+}
+
+.draft {
+  background: #fef7e0;
+  color: #b45309;
+}
+
+.disabled {
+  background: #ccc !important;
+  cursor: not-allowed;
+}

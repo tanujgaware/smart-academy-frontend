@@ -1,0 +1,105 @@
+.loading {
+  padding: 80px;
+  text-align: center;
+  color: #666;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0070f3, #0051aa);
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 28px;
+  line-height: 1.5;
+}
+
+.enrollPrimary {
+  background: white;
+  color: #0070f3;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* CONTENT */
+.content {
+  background: #f4f6f8;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  max-width: 800px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin-bottom: 18px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill {
+  background: #e6f0ff;
+  color: #003d99;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* CTA */
+.cta {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+}
+
+.cta h2 {
+  margin-bottom: 10px;
+}
+
+.cta p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.enrollSecondary {
+  background: #0070f3;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.disabled {
+  background: #ccc !important;
+  cursor: not-allowed;
+}

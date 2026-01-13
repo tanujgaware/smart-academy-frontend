@@ -1,0 +1,78 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0070f3, #0051aa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  width: 100%;
+  max-width: 380px;
+  padding: 32px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  margin-bottom: 6px;
+}
+
+.subText {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 22px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.field input {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.primary {
+  margin-top: 8px;
+  padding: 12px;
+  background: #0070f3;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.footer {
+  margin-top: 18px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer span {
+  color: #0070f3;
+  font-weight: 500;
+  cursor: pointer;
+}
