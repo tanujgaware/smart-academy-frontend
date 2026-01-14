@@ -40,10 +40,15 @@ const Navbar = () => {
             <Link href="/enrollments">My Enrollments</Link>
           )}
         </li>
-        <li className={router.pathname === "courses"? styles.active : ""}>
+        <li className={router.pathname === "/recommend" ? styles.active : ""}>
+          {user?.role === "STUDENT" && (
+            <Link href="/recommend">Recommendations</Link>
+          )}
+        </li>
+        <li className={router.pathname === "/courses"? styles.active : ""}>
             <Link href="/courses">Courses</Link>
         </li>
-        <li className={router.pathname ===" /courses/me" ? styles.active : ""}>
+        <li className={router.pathname ==="/courses/me" ? styles.active : ""}>
           {user?.role === "INSTRUCTOR" && (
             <Link href="/courses/me">My Courses</Link>
           )}
